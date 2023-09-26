@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            Temperature Convertor
+        </title>
+        <link rel="stylesheet" href="design.css">
+    </head>
+    <body>
+        <div class="container">
+            <form id="calculTemp" onsubmit="calculateTemp(); return false">
+                <label for="t">Temperature Convertor<i class='fa-solid fa-temperature-full' style="color: white;"></i></label>
+                <br>
+                <input type="number" name="t" id="t" placeholder="0">
+                <select name="temp_diff" id="temp_diff">
+                    <option value="c">&#176;Celsius</option>
+                    <option value="f">&#176;Fahrenheit</option>
+                </select>
+                <br>
+                <button type="submit" name="t" id="submit">Convert</button>
+                <br>
+                <span id="result"></span>
+            </form>
+        </div>
+
+        <img src="C:\Users\HP\Downloads\Temperature convertor\convert.png"/>
+    
+        <script src="code.js">
+         
+        </script>
+    </body>
+</html>
